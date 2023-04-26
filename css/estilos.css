@@ -1,0 +1,79 @@
+body {
+    background-image:url(../imagenes/fondovegan.jpg) ;
+background-repeat: no-repeat;
+background-position: center;
+}
+.tituloPrincipal {
+    font-family: 'Montagu Slab', serif;
+    text-align: center;
+    background-color: rgb(59, 189, 59);
+    border-radius: 100px;
+
+
+}
+.tituloDescripcion {
+    font-family: 'Montagu Slab', serif;
+    text-align: center;
+    border: dashed 2px green;
+    overflow: auto;
+
+}
+.parrafo {
+    font-family: 'Spline Sans', sans-serif;
+}
+.titulos {
+    font-family: 'Spline Sans', sans-serif;
+}
+
+.seccionUno {
+    border: double 10px rgb(7, 139, 47);
+    margin: 100px;
+    padding: 25px;
+    text-align: center;
+}
+.tituloIcono {
+    font-size: 20px ;
+    float: left ;
+    margin:5px;
+}
+
+.barraDeNavegacion  {
+    background-color: rgb(7, 139, 47);
+    padding:  5px;
+    margin-top: 20px;
+    text-align:right;
+    box-shadow: 0px 10px 10px rgb(0, 8, 0);
+    display: flex;
+}
+.barraDeBusqueda {
+    float: left ;
+    margin: 15px;
+    padding: 0px;
+    margin-inline: 50px;
+
+}
+.lista {
+    display: flex;
+    bottom: 15px;
+    margin-right: 15px;
+    text-align:right;
+}
+.container  {
+    text-align:right;
+    margin-left: 0px;
+    width: 180px;
+    height: 60px;
+    object-fit:cover;
+}
+.link {
+    margin: 2px;
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+line-height: 10px;
+}
+
+
+ 
